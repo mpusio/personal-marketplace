@@ -1,0 +1,51 @@
+# Project Name
+
+One-line description of what this project does.
+
+## Tech Stack
+
+- **Frontend:** [e.g., Next.js, TypeScript, Tailwind]
+- **Backend:** [e.g., Fastify, TypeScript]
+- **Database:** [e.g., PostgreSQL]
+
+## Structure
+
+```
+apps/
+  web/          # Frontend
+  api/          # Backend
+docs/
+  specs/        # PRD (modular)
+  learnings/    # Session insights
+.claude/
+  config.json   # Config (tasks, hooks)
+  rules/        # Coding conventions
+```
+
+## Commands
+
+```bash
+pnpm install          # Install dependencies
+pnpm dev              # Run all apps
+pnpm test             # Run tests
+pnpm lint             # Lint all
+```
+
+## Task Management
+
+GitHub Issues with milestones (MVP, V1, V2) and priority labels.
+
+## Rules
+
+Conventions in `.claude/rules/`:
+
+- `behavior.md` - thinking, simplicity, surgical changes
+- `git.md` - commits, branches
+
+## Quick Reference
+
+| Topic | Location |
+|-------|----------|
+| What to build | `docs/specs/` |
+| Tasks | GitHub Issues |
+| Code style | `.claude/rules/` |

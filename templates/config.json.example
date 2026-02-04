@@ -1,0 +1,20 @@
+{
+  "hooks": {
+    "PreCompact": [
+      {
+        "matcher": ["manual", "auto"],
+        "command": "echo 'Before compacting, run /learn to capture insights from this session.'"
+      }
+    ]
+  },
+  "tasks": {
+    "backend": "github",
+    "github": {
+      "labels": {
+        "priority": ["priority/p0", "priority/p1", "priority/p2"],
+        "phase": ["phase/mvp", "phase/v1", "phase/v2", "phase/later"]
+      },
+      "milestones": ["MVP", "V1", "V2"]
+    }
+  }
+}
