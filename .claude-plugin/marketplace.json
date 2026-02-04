@@ -1,0 +1,40 @@
+{
+  "name": "personal-marketplace",
+  "owner": {
+    "name": "empe2137",
+    "email": "pusiomichal@gmail.com"
+  },
+    "metadata": {
+    "description": "Marketplace with usefull plugins",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "dev-workflow",
+      "source": "./plugins/dev-workflow",
+      "description": "Complete development workflow: PRD, GitHub Issues, rules, learning, autonomous execution",
+      "version": "1.0.0",
+      "author": {
+        "name": "empe2137"
+      }
+    },
+    {
+      "name": "notify",
+      "source": "./plugins/notify",
+      "description": "Hook for windows notifications",
+      "version": "1.0.0",
+      "author": {
+        "name": "empe2137"
+      }
+    },
+    {
+      "name": "conversation-search",
+      "source": "./plugins/conversation-search",
+      "description": "Search history conversations for usefull information",
+      "version": "1.0.0",
+      "author": {
+        "name": "empe2137"
+      }
+    }
+  ]
+}

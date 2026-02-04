@@ -1,0 +1,8 @@
+{
+    "name": "notify",
+    "description": "Notified When Claude Code Finishes Action",
+    "version": "1.0.0",
+    "author": {
+        "name": "empe2137"
+    }
+}

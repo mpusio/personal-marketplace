@@ -1,0 +1,16 @@
+{
+  "description": "Automatically capture session learnings before context compaction",
+  "hooks": {
+    "PreCompact": [
+      {
+        "matcher": ["manual", "auto"],
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'Before compacting, run /learn to capture insights from this session.'"
+          }
+        ]
+      }
+    ]
+  }
+}

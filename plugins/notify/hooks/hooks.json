@@ -1,0 +1,27 @@
+{
+  "description": "Windows desktop notifications for permission requests and idle prompts",
+  "hooks": {
+    "Notification": [
+      {
+        "matcher": "permission_prompt",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell.exe -ExecutionPolicy Bypass -NoProfile -NonInteractive -File \"${CLAUDE_PLUGIN_ROOT}/scripts/notify-windows.ps1\"",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "idle_prompt",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell.exe -ExecutionPolicy Bypass -NoProfile -NonInteractive -File \"${CLAUDE_PLUGIN_ROOT}/scripts/notify-windows.ps1\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

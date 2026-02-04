@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Node (if any scripts use it)
+node_modules/
+
+# Python (if any scripts use it)
+__pycache__/
+*.pyc
+.venv/
