@@ -4,20 +4,12 @@ Claude Code plugins and templates for development workflow automation.
 
 ## Installation
 
-Add to your `.claude/settings.json`:
+```bash
+# Add marketplace
+/plugin marketplace add mpusio/personal-marketplace
 
-```json
-{
-  "plugins": ["github:mpusio/personal-marketplace"]
-}
-```
-
-Or install specific plugin:
-
-```json
-{
-  "plugins": ["github:mpusio/personal-marketplace:dev-workflow"]
-}
+# Install plugin
+/plugin install dev-workflow@personal-marketplace
 ```
 
 ## Plugins
@@ -36,7 +28,8 @@ Complete development workflow: PRD management, GitHub Issues sync, and session l
 | `/issues-sync` | Sync GitHub Issues with PRD |
 | `/issues-status` | Show project progress |
 | `/issue-add` | Quick issue creation |
-| `/rules-generate` | Generate coding rules from tech stack |
+| `/rules-tech` | Generate coding rules from tech stack (via Context7) |
+| `/rules-discover` | Interactive session to discover project-specific rules |
 | `/learn` | Capture session insights |
 | `/autonomous-execution` | Execute tasks from GitHub Issues autonomously |
 

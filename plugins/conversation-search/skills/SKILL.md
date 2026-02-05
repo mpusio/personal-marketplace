@@ -3,6 +3,7 @@ name: conversation-search
 description: Search past Claude Code conversation history. Use when asked to recall, find, or search for anything from previous conversations - including content discussed, links shared, problems solved, topics covered, things posted, or work done together. Triggers include "what did we do today", "summary of our work", "what did we work on", "from our conversations", "what did we discuss", "which X was about Y", "recall when we", "find where we talked about", "search history", "what did I share/post/send you about", "how did we fix", or any reference to past sessions or collaborative work.
 user-invocable: true
 disable-model-invocation: true
+allowed-tools: Bash
 ---
 
 # Conversation History Search

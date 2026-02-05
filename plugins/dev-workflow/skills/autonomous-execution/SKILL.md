@@ -2,6 +2,7 @@
 name: autonomous-execution
 description: Execute tasks autonomously from GitHub Issues. Makes design decisions independently, self-reviews, closes issues on completion.
 argument-hint: [milestone=MVP] [issues=1,2,3] [stop-on=error]
+disable-model-invocation: true
 allowed-tools: Read, Bash, Write, Edit, Glob, Grep
 ---
 

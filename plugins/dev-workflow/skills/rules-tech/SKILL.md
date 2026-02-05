@@ -1,11 +1,11 @@
 ---
-name: rules-generate
+name: rules-tech
 description: Generate minimalist coding rules based on project tech stack. Reads docs/specs/tech-stack.md and fetches best practices from Context7.
 argument-hint: [--tech=next,fastify]
 allowed-tools: Read, Glob, Write, mcp__plugin_context7_context7__resolve-library-id, mcp__plugin_context7_context7__query-docs
 ---
 
-# Rules Generate
+# Rules Tech
 
 ## Overview
 
@@ -112,7 +112,7 @@ Review and adjust as needed.
 ## Example
 
 ```
-User: /rules-generate
+User: /rules-tech
 
 Claude: Reading docs/specs/tech-stack.md...
 

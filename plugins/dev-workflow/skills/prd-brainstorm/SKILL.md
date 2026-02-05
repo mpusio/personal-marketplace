@@ -1,6 +1,8 @@
 ---
 name: prd-brainstorm
 description: Interactive brainstorming session to explore and define a project idea before creating a PRD. Asks one question at a time, goes deeper on important details. Use when user wants to brainstorm, explore an idea, or prepare for PRD creation.
+disable-model-invocation: true
+allowed-tools: Read
 ---
 
 # PRD Brainstorm

@@ -1,6 +1,7 @@
 ---
 name: prd-compile
 description: Compile brainstorm findings into modular PRD documents. Reads from docs/brainstorm.md or conversation context and generates structured specs in docs/specs/.
+allowed-tools: Read, Glob, Write
 ---
 
 # PRD Compile
